@@ -25,6 +25,8 @@ data Expr
   | Average Expr Expr
   | Times   Expr Expr
   | Thresh  Expr Expr Expr Expr
+  | Sqrt    Expr
+  | TriExpr Expr Expr Expr
   deriving (Show)
 
 --------------------------------------------------------------------------------
